@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>    API Documentation &raquo; \FedoraRelsExt
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+            <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+            <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/template.js" type="text/javascript"></script>
+        <script src="../js/prettify/prettify.min.js" type="text/javascript"></script>
+    
+            <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png"/>
+    </head>
+<body>
+
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> </a>
+                <a class="brand" href="../index.html">API Documentation</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                API Documentation <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                                                                            </ul>
+                        </li>
+                        <li class="dropdown" id="charts-menu">
+                            <a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                Charts <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../graph_class.html">
+                                        <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="reports-menu">
+                            <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../errors.html">
+                                        <i class="icon-list-alt"></i>&#160;Errors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../markers.html">
+                                        <i class="icon-list-alt"></i>&#160;Markers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../deprecated.html">
+                                        <i class="icon-list-alt"></i>&#160;Deprecated
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="go_to_top">
+            <a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>
+        </div>
+    </div>
+    
+    <div id="___" class="container">
+        <noscript>
+            <div class="alert alert-warning">
+                Javascript is disabled; several features are only available if Javascript is enabled.
+            </div>
+        </noscript>
+
+        
+            <style>
+        .deprecated h2 {
+            text-decoration: line-through;
+        }
+    </style>
+    <div class="row">
+        <div class="span4">
+                    <div class="btn-group view pull-right" data-toggle="buttons-radio">
+        <button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button>
+        <button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+    </div>
+    <div class="btn-group visibility" data-toggle="buttons-checkbox">
+        <button class="btn public active" title="Show public elements">Public</button>
+        <button class="btn protected" title="Show protected elements">Protected</button>
+        <button class="btn private" title="Show private elements">Private</button>
+        <button class="btn inherited active" title="Show inherited elements">Inherited</button>
+    </div>
+
+        <ul class="side-nav nav nav-list">
+        <li class="nav-header">
+            <i class="icon-custom icon-method"></i> Methods
+            <ul>
+                                                                                                    <li class="method public inherited">
+        <a href="#method___construct" title="__construct :: The constructor. This will usually be called by one of its subclasses.">
+            <span class="description">The constructor. This will usually be called by one of its subclasses.</span><pre>__construct</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___get" title="__get :: This implements the PHP __get function which is utilized for reading data
+from inaccessible properties. It wraps it by calling the appropriatly named
+method in the inherteting class.">
+            <span class="description">This implements the PHP __get function which is utilized for reading data
+from inaccessible properties. It wraps it by calling the appropriatly named
+method in the inherteting class.</span><pre>__get</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___isset" title="__isset :: This implements the PHP __isset function which is utilized for testing if
+data in inaccessable properties is set. This function calls the
+approprietly named method in the inhereting class.">
+            <span class="description">This implements the PHP __isset function which is utilized for testing if
+data in inaccessable properties is set. This function calls the
+approprietly named method in the inhereting class.</span><pre>__isset</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___set" title="__set :: This implements the PHP __set function which is utilized for setting
+inaccessable properties.">
+            <span class="description">This implements the PHP __set function which is utilized for setting
+inaccessable properties.</span><pre>__set</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___unset" title="__unset :: This implements the PHP __unset function which is utilized for unsetting
+inaccessable properties.">
+            <span class="description">This implements the PHP __unset function which is utilized for unsetting
+inaccessable properties.</span><pre>__unset</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___wakeup" title="__wakeup :: Upon unserialization unset any MagicProperty vars.">
+            <span class="description">Upon unserialization unset any MagicProperty vars.</span><pre>__wakeup</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_add" title="add :: Add a new relationship.">
+            <span class="description">Add a new relationship.</span><pre>add</pre>
+        </a>
+    </li>
+
+                                                                                                                                                                <li class="method public inherited">
+        <a href="#method_changeObjectID" title="changeObjectID :: This function allows you to change the ID referenced in the rdf:about
+attribute. This allows the updating of all the about attribures if the
+datastream is being attached to another object.">
+            <span class="description">This function allows you to change the ID referenced in the rdf:about
+attribute. This allows the updating of all the about attribures if the
+datastream is being attached to another object.</span><pre>changeObjectID</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_commitRelationships" title="commitRelationships :: Forces a commit of cached relationships.">
+            <span class="description">Forces a commit of cached relationships.</span><pre>commitRelationships</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_get" title="get :: This function queries the relationships in the assocaited datastream. Any
+parameter except for $subject can be set to NULL to act as a wildcard.">
+            <span class="description">This function queries the relationships in the assocaited datastream. Any
+parameter except for $subject can be set to NULL to act as a wildcard.</span><pre>get</pre>
+        </a>
+    </li>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li class="method public inherited">
+        <a href="#method_registerNamespace" title="registerNamespace :: Add a new namespace to the relationship xml. Doing this before adding new
+predicates with different URIs makes the XML look a little prettier.">
+            <span class="description">Add a new namespace to the relationship xml. Doing this before adding new
+predicates with different URIs makes the XML look a little prettier.</span><pre>registerNamespace</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_remove" title="remove :: This function removes relationships that match the pattern from the
+datastream. Any parameter can be given as NULL which will make it a
+wildcard.">
+            <span class="description">This function removes relationships that match the pattern from the
+datastream. Any parameter can be given as NULL which will make it a
+wildcard.</span><pre>remove</pre>
+        </a>
+    </li>
+
+                                                                                                                                                                </ul>
+        </li>
+        <li class="nav-header protected">» Protected
+            <ul>
+                                                                                                                                                                                                                                                                                                                                        <li class="method protected inherited">
+                            <a href="#method_autoCommitMagicProperty" title="autoCommitMagicProperty :: MagicProperty for autoCommit.">
+                                <span class="description">MagicProperty for autoCommit.</span><pre>autoCommitMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                                                                                                                            <li class="method protected inherited">
+                            <a href="#method_getDom" title="getDom :: Sets up a domdocument for the functions.">
+                                <span class="description">Sets up a domdocument for the functions.</span><pre>getDom</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_getGeneralMagicPropertyMethodName" title="getGeneralMagicPropertyMethodName :: Returns the name of the magic property. Makes it easy to change what we
+use as the name.">
+                                <span class="description">Returns the name of the magic property. Makes it easy to change what we
+use as the name.</span><pre>getGeneralMagicPropertyMethodName</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_getXpath" title="getXpath :: This function returns a domXPath object with all the current namespaces
+already registered.">
+                                <span class="description">This function returns a domXPath object with all the current namespaces
+already registered.</span><pre>getXpath</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_getXpathResults" title="getXpathResults :: This function is used to create an xpath expression based on the input.">
+                                <span class="description">This function is used to create an xpath expression based on the input.</span><pre>getXpathResults</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_initializeDatastream" title="initializeDatastream :: Initialize the datastream that we are using. We use this function to
+delay this as long as possible, in case it never has to be called.">
+                                <span class="description">Initialize the datastream that we are using. We use this function to
+delay this as long as possible, in case it never has to be called.</span><pre>initializeDatastream</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_internalAdd" title="internalAdd :: Add a new relationship.">
+                                <span class="description">Add a new relationship.</span><pre>internalAdd</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_internalGet" title="internalGet :: This function queries the relationships in the assocaited datastream. Any
+parameter except for $subject can be set to NULL to act as a wildcard.">
+                                <span class="description">This function queries the relationships in the assocaited datastream. Any
+parameter except for $subject can be set to NULL to act as a wildcard.</span><pre>internalGet</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_internalRemove" title="internalRemove :: This function removes relationships that match the pattern from the
+datastream. Any parameter can be given as NULL which will make it a
+wildcard.">
+                                <span class="description">This function removes relationships that match the pattern from the
+datastream. Any parameter can be given as NULL which will make it a
+wildcard.</span><pre>internalRemove</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_propertyIsMagical" title="propertyIsMagical :: Test if a property appears to be magical.">
+                                <span class="description">Test if a property appears to be magical.</span><pre>propertyIsMagical</pre>
+                            </a>
+                        </li>
+                                                                                                                                                        <li class="method protected inherited">
+                            <a href="#method_saveRelationships" title="saveRelationships :: Saves relationships to Fedora or localy.">
+                                <span class="description">Saves relationships to Fedora or localy.</span><pre>saveRelationships</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_xpathEscape" title="xpathEscape :: Escapes strings for use in xpaths.">
+                                <span class="description">Escapes strings for use in xpaths.</span><pre>xpathEscape</pre>
+                            </a>
+                        </li>
+                                                </ul>
+        </li>
+        <li class="nav-header private">» Private
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+        </li>
+        <li class="nav-header">
+            <i class="icon-custom icon-constant"></i> Constants
+            <ul>
+                            </ul>
+        </li>
+    </ul>
+
+
+        </div>
+
+        <div class="span8">
+            <div class="element class">
+                <h1>FedoraRelsExt</h1>
+                <small style="display: block; text-align: right">
+                                            Extends <a href="../classes/FedoraRelationships.html">\FedoraRelationships</a>
+                                                        </small>
+                <p class="short_description">This is the base class for Fedora Relationships.</p>
+                <div class="details">
+                    <div class="long_description">
+                        <p>This code lets the user define a new method that will be called when a
+property is accessed. Any method that ends in MagicProperty is code that
+implements a magic property.</p>
+<p>Usage Example</p>
+                    </div>
+                    <table class="table table-bordered">
+                                                                                    <tr>
+                                    <th>
+                                        package
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Default</p>
+                                    </td>
+                                </tr>
+                                                                                                                                                                                </table>
+
+                    <h3><i class="icon-custom icon-method"></i> Methods</h3>
+                                                                <a id="method___construct"></a>
+                        <div class="element clickable method public  method___construct inherited" data-toggle="collapse" data-target=".method___construct .collapse">
+                            <h2>The constructor. This will usually be called by one of its subclasses.</h2>
+                            <pre>__construct(array $namespaces = NULL) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$namespaces</h4>
+                                                <code>array</code><p><p>An array of default namespaces.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___get"></a>
+                        <div class="element clickable method public  method___get inherited" data-toggle="collapse" data-target=".method___get .collapse">
+                            <h2>This implements the PHP __get function which is utilized for reading data
+from inaccessible properties. It wraps it by calling the appropriatly named
+method in the inherteting class.</h2>
+                            <pre>__get(string $name) : void</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p><a href="http://php.net/manual/en/language.oop5.overloading.php">http://php.net/manual/en/language.oop5.overloading.php</a></p></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of the function being called.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___isset"></a>
+                        <div class="element clickable method public  method___isset inherited" data-toggle="collapse" data-target=".method___isset .collapse">
+                            <h2>This implements the PHP __isset function which is utilized for testing if
+data in inaccessable properties is set. This function calls the
+approprietly named method in the inhereting class.</h2>
+                            <pre>__isset(string $name) : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p><a href="http://php.net/manual/en/language.oop5.overloading.php">http://php.net/manual/en/language.oop5.overloading.php</a></p></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of the function being called.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>If the variable is set.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___set"></a>
+                        <div class="element clickable method public  method___set inherited" data-toggle="collapse" data-target=".method___set .collapse">
+                            <h2>This implements the PHP __set function which is utilized for setting
+inaccessable properties.</h2>
+                            <pre>__set(string $name, void $value) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p><a href="http://php.net/manual/en/language.oop5.overloading.php">http://php.net/manual/en/language.oop5.overloading.php</a></p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The property to set.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code>void</code><p><p>The value it should be set with.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___unset"></a>
+                        <div class="element clickable method public  method___unset inherited" data-toggle="collapse" data-target=".method___unset .collapse">
+                            <h2>This implements the PHP __unset function which is utilized for unsetting
+inaccessable properties.</h2>
+                            <pre>__unset(string $name) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p><a href="http://php.net/manual/en/language.oop5.overloading.php">http://php.net/manual/en/language.oop5.overloading.php</a></p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The property to unset</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___wakeup"></a>
+                        <div class="element clickable method public  method___wakeup inherited" data-toggle="collapse" data-target=".method___wakeup .collapse">
+                            <h2>Upon unserialization unset any MagicProperty vars.</h2>
+                            <pre>__wakeup() </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_add"></a>
+                        <div class="element clickable method public  method_add" data-toggle="collapse" data-target=".method_add .collapse">
+                            <h2>Add a new relationship.</h2>
+                            <pre>add(string $predicate_uri, string $predicate, string $object, integer $type = RELS_TYPE_URI) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate_uri</h4>
+                                                <code>string</code><p><p>The URI to use as the namespace of the predicate. If you would like the
+XML to use a prefix instead of the full predicate call the
+FedoraRelationships::registerNamespace() function first.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate</h4>
+                                                <code>string</code><p><p>The predicate tag to add.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$object</h4>
+                                                <code>string</code><p><p>The object for the relationship that is being created.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$type</h4>
+                                                <code>integer</code><p><p>What the attribute type should be. One of the defined literals beginning
+with RELS<em>TYPE</em>. Defaults to RELS_TYPE_URI.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_autoCommitMagicProperty"></a>
+                        <div class="element clickable method protected  method_autoCommitMagicProperty inherited" data-toggle="collapse" data-target=".method_autoCommitMagicProperty .collapse">
+                            <h2>MagicProperty for autoCommit.</h2>
+                            <pre>autoCommitMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_changeObjectID"></a>
+                        <div class="element clickable method public  method_changeObjectID inherited" data-toggle="collapse" data-target=".method_changeObjectID .collapse">
+                            <h2>This function allows you to change the ID referenced in the rdf:about
+attribute. This allows the updating of all the about attribures if the
+datastream is being attached to another object.</h2>
+                            <pre>changeObjectID(string $id) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$id</h4>
+                                                <code>string</code><p><p>The new ID</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_commitRelationships"></a>
+                        <div class="element clickable method public  method_commitRelationships inherited" data-toggle="collapse" data-target=".method_commitRelationships .collapse">
+                            <h2>Forces a commit of cached relationships.</h2>
+                            <pre>commitRelationships(boolean $set_auto_commit = TRUE) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$set_auto_commit</h4>
+                                                <code>boolean</code><p><p>Determines exiting autoCommit state.
+Defaults to TRUE.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_get"></a>
+                        <div class="element clickable method public  method_get" data-toggle="collapse" data-target=".method_get .collapse">
+                            <h2>This function queries the relationships in the assocaited datastream. Any
+parameter except for $subject can be set to NULL to act as a wildcard.</h2>
+                            <pre>get(string $predicate_uri = NULL, string $predicate = NULL, string $object = NULL, mixed $type = RELS_TYPE_URI) : array</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>Calling with just $subject will return all relationships.</p></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate_uri</h4>
+                                                <code>string</code><p><p>The URI to use as the namespace of the predicate. This is ignored if
+predicate is NULL.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate</h4>
+                                                <code>string</code><p><p>The predicate tag to filter by.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$object</h4>
+                                                <code>string</code><p><p>The object for the relationship to filter by.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$type</h4>
+                                                <code>mixed</code><p><p>What the attribute type should be. One of the defined literals beginning
+with RELS<em>TYPE</em>.  For backwards compatibility we support TRUE as
+RELS_TYPE_PLAIN_LITERAL and FALSE as RELS_TYPE_URI.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>array</code><p><p>This returns an indexed array with all the matching relationships. The
+array is of the form:
+@code
+Array
+(
+[0] =&gt; Array
+(
+[predicate] =&gt; Array
+(
+[value] =&gt; thepredicate
+[alias] =&gt; thexmlprefix
+[namespace] =&gt; <a href="http://crazycool.com">http://crazycool.com</a>#
+)</p>
+<pre><code>          [object] =&gt; Array
+              (
+                  [literal] =&gt; TRUE
+                  [value] =&gt; test
+              )
+
+      )</code></pre>
+<p>)
+@endcode</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getDom"></a>
+                        <div class="element clickable method protected  method_getDom inherited" data-toggle="collapse" data-target=".method_getDom .collapse">
+                            <h2>Sets up a domdocument for the functions.</h2>
+                            <pre>getDom() : \DomDocument</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>\DomDocument</code><p><p>The domdocument to modify</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getGeneralMagicPropertyMethodName"></a>
+                        <div class="element clickable method protected  method_getGeneralMagicPropertyMethodName inherited" data-toggle="collapse" data-target=".method_getGeneralMagicPropertyMethodName .collapse">
+                            <h2>Returns the name of the magic property. Makes it easy to change what we
+use as the name.</h2>
+                            <pre>getGeneralMagicPropertyMethodName( $name) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getXpath"></a>
+                        <div class="element clickable method protected  method_getXpath inherited" data-toggle="collapse" data-target=".method_getXpath .collapse">
+                            <h2>This function returns a domXPath object with all the current namespaces
+already registered.</h2>
+                            <pre>getXpath(\DOMDocument $document) : \DomXPath</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$document</h4>
+                                                <code>\DOMDocument</code><p><p>The processing Dom Document.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>\DomXPath</code><p><p>The object</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getXpathResults"></a>
+                        <div class="element clickable method protected  method_getXpathResults inherited" data-toggle="collapse" data-target=".method_getXpathResults .collapse">
+                            <h2>This function is used to create an xpath expression based on the input.</h2>
+                            <pre>getXpathResults(\DOMXPath $xpath_object, string $subject, string $predicate_uri, string $predicate, string $object, integer $type) : \DOMNodeList</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    remarks
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>FedoraRelationships::getXpathResults can have a predicate without
+a predicate_uri. This is potentially dangerous behaviour.</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$xpath_object</h4>
+                                                <code>\DOMXPath</code><p><p>The current xpath object.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$subject</h4>
+                                                <code>string</code><p><p>The subject. This can be a PID, or a PID/DSID combo. This string does
+not contain the info:fedora/ part of the URI this is added automatically.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate_uri</h4>
+                                                <code>string</code><p><p>The URI to use as the namespace of the predicate. If you would like the
+XML to use a prefix instead of the full predicate call the
+FedoraRelationships::registerNamespace() function first.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate</h4>
+                                                <code>string</code><p><p>The predicate tag to add.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$object</h4>
+                                                <code>string</code><p><p>The object for the relationship that is being created.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$type</h4>
+                                                <code>integer</code><p><p>What the attribute type should be. One of the defined literals beginning
+with RELS<em>TYPE</em>.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>\DOMNodeList</code><p><p>The node list</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_initializeDatastream"></a>
+                        <div class="element clickable method protected  method_initializeDatastream inherited" data-toggle="collapse" data-target=".method_initializeDatastream .collapse">
+                            <h2>Initialize the datastream that we are using. We use this function to
+delay this as long as possible, in case it never has to be called.</h2>
+                            <pre>initializeDatastream() </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                <span class="label">abstract</span>                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_internalAdd"></a>
+                        <div class="element clickable method protected  method_internalAdd inherited" data-toggle="collapse" data-target=".method_internalAdd .collapse">
+                            <h2>Add a new relationship.</h2>
+                            <pre>internalAdd(string $subject, string $predicate_uri, string $predicate, string $object, integer $type = RELS_TYPE_URI) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$subject</h4>
+                                                <code>string</code><p><p>The subject. This can be a PID, or a PID/DSID combo. This string does
+not contain the info:fedora/ part of the URI this is added automatically.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate_uri</h4>
+                                                <code>string</code><p><p>The URI to use as the namespace of the predicate. If you would like the
+XML to use a prefix instead of the full predicate call the
+FedoraRelationships::registerNamespace() function first.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate</h4>
+                                                <code>string</code><p><p>The predicate tag to add.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$object</h4>
+                                                <code>string</code><p><p>The object for the relationship that is being created.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$type</h4>
+                                                <code>integer</code><p><p>What the attribute type should be. One of the defined literals beginning
+with RELS<em>TYPE</em>.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_internalGet"></a>
+                        <div class="element clickable method protected  method_internalGet inherited" data-toggle="collapse" data-target=".method_internalGet .collapse">
+                            <h2>This function queries the relationships in the assocaited datastream. Any
+parameter except for $subject can be set to NULL to act as a wildcard.</h2>
+                            <pre>internalGet(string $subject, string $predicate_uri = NULL, string $predicate = NULL, string $object = NULL, integer $type = RELS_TYPE_URI) : array</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>Calling with just $subject will return all relationships.</p></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$subject</h4>
+                                                <code>string</code><p><p>The subject. This can be a PID, or a PID/DSID combo. This string does
+not contain the info:fedora/ part of the URI this is added automatically.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate_uri</h4>
+                                                <code>string</code><p><p>The URI to use as the namespace of the predicate. This is ignored if
+predicate is NULL.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate</h4>
+                                                <code>string</code><p><p>The predicate tag to filter by.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$object</h4>
+                                                <code>string</code><p><p>The object for the relationship to filter by.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$type</h4>
+                                                <code>integer</code><p><p>What the attribute type should be. One of the defined literals beginning
+with RELS<em>TYPE</em>.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>array</code><p><p>This returns an indexed array with all the matching relationships. The
+array is of the form:
+@code
+Array
+(
+[0] =&gt; Array
+(
+[predicate] =&gt; Array
+(
+[value] =&gt; thepredicate
+[alias] =&gt; thexmlprefix
+[namespace] =&gt; <a href="http://crazycool.com">http://crazycool.com</a>#
+)</p>
+<pre><code>          [object] =&gt; Array
+              (
+                  [literal] =&gt; TRUE
+                  [value] =&gt; test
+              )
+
+      )</code></pre>
+<p>)
+@endcode</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_internalRemove"></a>
+                        <div class="element clickable method protected  method_internalRemove inherited" data-toggle="collapse" data-target=".method_internalRemove .collapse">
+                            <h2>This function removes relationships that match the pattern from the
+datastream. Any parameter can be given as NULL which will make it a
+wildcard.</h2>
+                            <pre>internalRemove(string $subject, string $predicate_uri, string $predicate, string $object, integer $type = RELS_TYPE_URI) : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$subject</h4>
+                                                <code>string</code><p><p>The subject. This can be a PID, or a PID/DSID combo. This string does
+not contain the info:fedora/ part of the URI this is added automatically.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate_uri</h4>
+                                                <code>string</code><p><p>The URI to use as the namespace of the predicate. This is ignored if
+predicate is NULL.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate</h4>
+                                                <code>string</code><p><p>The predicate tag to filter removed results by.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$object</h4>
+                                                <code>string</code><p><p>The object for the relationship to filter by.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$type</h4>
+                                                <code>integer</code><p><p>What the attribute type should be. One of the defined literals beginning
+with RELS<em>TYPE</em>. Defaults to RELS_TYPE_URI.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>TRUE if relationships were removed, FALSE otherwise.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_propertyIsMagical"></a>
+                        <div class="element clickable method protected  method_propertyIsMagical inherited" data-toggle="collapse" data-target=".method_propertyIsMagical .collapse">
+                            <h2>Test if a property appears to be magical.</h2>
+                            <pre>propertyIsMagical(string $name) : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of a property to test.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>TRUE if the property appears to be magically implemented; otherwise,
+FALSE.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_registerNamespace"></a>
+                        <div class="element clickable method public  method_registerNamespace inherited" data-toggle="collapse" data-target=".method_registerNamespace .collapse">
+                            <h2>Add a new namespace to the relationship xml. Doing this before adding new
+predicates with different URIs makes the XML look a little prettier.</h2>
+                            <pre>registerNamespace(string $alias, string $uri) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$alias</h4>
+                                                <code>string</code><p><p>The alias to add.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$uri</h4>
+                                                <code>string</code><p><p>The URI to associate with the alias.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_remove"></a>
+                        <div class="element clickable method public  method_remove" data-toggle="collapse" data-target=".method_remove .collapse">
+                            <h2>This function removes relationships that match the pattern from the
+datastream. Any parameter can be given as NULL which will make it a
+wildcard.</h2>
+                            <pre>remove(string $predicate_uri = NULL, string $predicate = NULL, string $object = NULL, integer $type = RELS_TYPE_URI) : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate_uri</h4>
+                                                <code>string</code><p><p>The URI to use as the namespace of the predicate. This is ignored if
+predicate is NULL.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$predicate</h4>
+                                                <code>string</code><p><p>The predicate tag to filter removed results by.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$object</h4>
+                                                <code>string</code><p><p>The object for the relationship to filter by.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$type</h4>
+                                                <code>integer</code><p><p>What the attribute type should be. One of the defined literals beginning
+with RELS<em>TYPE</em>. Defaults to RELS_TYPE_URI.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>TRUE if relationships were removed, FALSE otherwise.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_saveRelationships"></a>
+                        <div class="element clickable method protected  method_saveRelationships inherited" data-toggle="collapse" data-target=".method_saveRelationships .collapse">
+                            <h2>Saves relationships to Fedora or localy.</h2>
+                            <pre>saveRelationships(\DOMDocument $document) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>This updates the associated datastreams content, or the cache if
+autocommit is disabled.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$document</h4>
+                                                <code>\DOMDocument</code><p><p>The DOMDocument to save.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_xpathEscape"></a>
+                        <div class="element clickable method protected  method_xpathEscape inherited" data-toggle="collapse" data-target=".method_xpathEscape .collapse">
+                            <h2>Escapes strings for use in xpaths.</h2>
+                            <pre>xpathEscape(string $input) : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            <a href="http://stackoverflow.com/questions/4820067">http://stackoverflow.com/questions/4820067</a>
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$input</h4>
+                                                <code>string</code><p><p>The string to escape.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The escaped string.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                    
+                    
+                                                                <h3><i class="icon-custom icon-property"></i> Properties</h3>
+                                                    <a id="property_new"> </a>
+                            <div class="element clickable property  protected property_new inherited" data-toggle="collapse" data-target=".property_new .collapse">
+                                <h2>Wheather or not the DS has yet to be ingested.</h2>
+                                <pre>new : boolean</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_autoCommit"> </a>
+                            <div class="element clickable property  public property_autoCommit inherited" data-toggle="collapse" data-target=".property_autoCommit .collapse">
+                                <h2>Whether or not to auto-commit RELS.</h2>
+                                <pre>autoCommit : boolean</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    <p>Here be dragons. If autoCommit is FALSE Fedora and the local DS object
+will not be immediately updated with RELS changes. Bad things may happen.
+Defaults to TRUE in the constructor as var has to start NULL for
+magicProperty.</p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_domCache"> </a>
+                            <div class="element clickable property  protected property_domCache inherited" data-toggle="collapse" data-target=".property_domCache .collapse">
+                                <h2>The cache used when $autoCommit is disabled.</h2>
+                                <pre>domCache : \DomDocument</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>\DomDocument</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_datastream"> </a>
+                            <div class="element clickable property  public property_datastream inherited" data-toggle="collapse" data-target=".property_datastream .collapse">
+                                <h2>The datastream this class is manipulating.</h2>
+                                <pre>datastream : \AbstractFedoraDatastream</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code><a href="../classes/AbstractFedoraDatastream.html">\AbstractFedoraDatastream</a></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_namespaces"> </a>
+                            <div class="element clickable property  protected property_namespaces inherited" data-toggle="collapse" data-target=".property_namespaces .collapse">
+                                <h2>An array of namespaces that is used in the document.</h2>
+                                <pre>namespaces : array</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>array</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            </div>
+            </div>
+            <a id="\FedoraRelsExt"></a>
+            <ul class="breadcrumb">
+                <li><a href="../index.html"><i class="icon-custom icon-class"></i></a></li>
+                    
+    
+    <li><span class="divider">\</span><a href="../namespaces/default.html">\</a></li>
+
+                <li class="active"><span class="divider">\</span><a href="../classes/FedoraRelsExt.html">FedoraRelsExt</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+        <footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by
+            <a href="http://glyphicons.com/">Glyphicons</a>.<br/>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
+            generated on Thu, 22 Oct 2015 11:06:12 -0400.<br/>
+    </footer>
+    </body>
+</html>

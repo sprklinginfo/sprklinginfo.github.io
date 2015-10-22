@@ -1,0 +1,2394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>    API Documentation &raquo; \NewFedoraDatastream
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+            <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+            <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/template.js" type="text/javascript"></script>
+        <script src="../js/prettify/prettify.min.js" type="text/javascript"></script>
+    
+            <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png"/>
+    </head>
+<body>
+
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> </a>
+                <a class="brand" href="../index.html">API Documentation</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                API Documentation <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                                                                            </ul>
+                        </li>
+                        <li class="dropdown" id="charts-menu">
+                            <a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                Charts <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../graph_class.html">
+                                        <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="reports-menu">
+                            <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../errors.html">
+                                        <i class="icon-list-alt"></i>&#160;Errors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../markers.html">
+                                        <i class="icon-list-alt"></i>&#160;Markers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../deprecated.html">
+                                        <i class="icon-list-alt"></i>&#160;Deprecated
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="go_to_top">
+            <a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>
+        </div>
+    </div>
+    
+    <div id="___" class="container">
+        <noscript>
+            <div class="alert alert-warning">
+                Javascript is disabled; several features are only available if Javascript is enabled.
+            </div>
+        </noscript>
+
+        
+            <style>
+        .deprecated h2 {
+            text-decoration: line-through;
+        }
+    </style>
+    <div class="row">
+        <div class="span4">
+                    <div class="btn-group view pull-right" data-toggle="buttons-radio">
+        <button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button>
+        <button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+    </div>
+    <div class="btn-group visibility" data-toggle="buttons-checkbox">
+        <button class="btn public active" title="Show public elements">Public</button>
+        <button class="btn protected" title="Show protected elements">Protected</button>
+        <button class="btn private" title="Show private elements">Private</button>
+        <button class="btn inherited active" title="Show inherited elements">Inherited</button>
+    </div>
+
+        <ul class="side-nav nav nav-list">
+        <li class="nav-header">
+            <i class="icon-custom icon-method"></i> Methods
+            <ul>
+                                                                                                    <li class="method public inherited">
+        <a href="#method___construct" title="__construct :: Unsets public members.">
+            <span class="description">Unsets public members.</span><pre>__construct</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method___destruct" title="__destruct :: ">
+            <span class="description"></span><pre>__destruct</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___get" title="__get :: This implements the PHP __get function which is utilized for reading data
+from inaccessible properties. It wraps it by calling the appropriatly named
+method in the inherteting class.">
+            <span class="description">This implements the PHP __get function which is utilized for reading data
+from inaccessible properties. It wraps it by calling the appropriatly named
+method in the inherteting class.</span><pre>__get</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___isset" title="__isset :: This implements the PHP __isset function which is utilized for testing if
+data in inaccessable properties is set. This function calls the
+approprietly named method in the inhereting class.">
+            <span class="description">This implements the PHP __isset function which is utilized for testing if
+data in inaccessable properties is set. This function calls the
+approprietly named method in the inhereting class.</span><pre>__isset</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___set" title="__set :: This implements the PHP __set function which is utilized for setting
+inaccessable properties.">
+            <span class="description">This implements the PHP __set function which is utilized for setting
+inaccessable properties.</span><pre>__set</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___unset" title="__unset :: This implements the PHP __unset function which is utilized for unsetting
+inaccessable properties.">
+            <span class="description">This implements the PHP __unset function which is utilized for unsetting
+inaccessable properties.</span><pre>__unset</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___wakeup" title="__wakeup :: Upon unserialization unset any public members.">
+            <span class="description">Upon unserialization unset any public members.</span><pre>__wakeup</pre>
+        </a>
+    </li>
+
+                                                                                                                                                                                                                                                                                                                                        <li class="method public inherited">
+        <a href="#method_delete" title="delete :: This will set the state of the datastream to deleted.">
+            <span class="description">This will set the state of the datastream to deleted.</span><pre>delete</pre>
+        </a>
+    </li>
+
+                                                                                                                                                                                                                        <li class="method public inherited">
+        <a href="#method_getContent" title="getContent :: Get the contents of a datastream and output it to the file provided.">
+            <span class="description">Get the contents of a datastream and output it to the file provided.</span><pre>getContent</pre>
+        </a>
+    </li>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li class="method public inherited">
+        <a href="#method_setContentFromFile" title="setContentFromFile :: Set the contents of the datastream from a file.">
+            <span class="description">Set the contents of the datastream from a file.</span><pre>setContentFromFile</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_setContentFromString" title="setContentFromString :: Set the contents of the datastream from a string.">
+            <span class="description">Set the contents of the datastream from a string.</span><pre>setContentFromString</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_setContentFromUrl" title="setContentFromUrl :: Set the contents of the datastream from a URL. The contents of this
+URL will be fetched, and the datastream will be updated to contain the
+contents of the URL.">
+            <span class="description">Set the contents of the datastream from a URL. The contents of this
+URL will be fetched, and the datastream will be updated to contain the
+contents of the URL.</span><pre>setContentFromUrl</pre>
+        </a>
+    </li>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </ul>
+        </li>
+        <li class="nav-header protected">» Protected
+            <ul>
+                                                                                                                                                                                                                                                                                                                                        <li class="method protected">
+                            <a href="#method_checksumMagicProperty" title="checksumMagicProperty :: ">
+                                <span class="description"></span><pre>checksumMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_checksumTypeMagicProperty" title="checksumTypeMagicProperty :: ">
+                                <span class="description"></span><pre>checksumTypeMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_contentMagicProperty" title="contentMagicProperty :: ">
+                                <span class="description"></span><pre>contentMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_controlGroupMagicProperty" title="controlGroupMagicProperty :: ">
+                                <span class="description"></span><pre>controlGroupMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                                                                                        <li class="method protected">
+                            <a href="#method_formatMagicProperty" title="formatMagicProperty :: ">
+                                <span class="description"></span><pre>formatMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                                                    <li class="method protected inherited">
+                            <a href="#method_getGeneralMagicPropertyMethodName" title="getGeneralMagicPropertyMethodName :: Returns the name of the magic property. Makes it easy to change what we
+use as the name.">
+                                <span class="description">Returns the name of the magic property. Makes it easy to change what we
+use as the name.</span><pre>getGeneralMagicPropertyMethodName</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_idMagicProperty" title="idMagicProperty :: ">
+                                <span class="description"></span><pre>idMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_isDatastreamProperySet" title="isDatastreamProperySet :: This is a replacement for isset when things can&#039;t be unset. So we define
+a default value, then return TRUE or FALSE based on if it is set.">
+                                <span class="description">This is a replacement for isset when things can&#039;t be unset. So we define
+a default value, then return TRUE or FALSE based on if it is set.</span><pre>isDatastreamProperySet</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_labelMagicProperty" title="labelMagicProperty :: ">
+                                <span class="description"></span><pre>labelMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_logMessageMagicProperty" title="logMessageMagicProperty :: ">
+                                <span class="description"></span><pre>logMessageMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_mimetypeMagicProperty" title="mimetypeMagicProperty :: ">
+                                <span class="description"></span><pre>mimetypeMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_propertyIsMagical" title="propertyIsMagical :: Test if a property appears to be magical.">
+                                <span class="description">Test if a property appears to be magical.</span><pre>propertyIsMagical</pre>
+                            </a>
+                        </li>
+                                                                                                                                                                                            <li class="method protected">
+                            <a href="#method_stateMagicProperty" title="stateMagicProperty :: ">
+                                <span class="description"></span><pre>stateMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                                                    <li class="method protected">
+                            <a href="#method_urlMagicProperty" title="urlMagicProperty :: ">
+                                <span class="description"></span><pre>urlMagicProperty</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_validateChecksumType" title="validateChecksumType :: Validates and normalizes the checksumType arguement.">
+                                <span class="description">Validates and normalizes the checksumType arguement.</span><pre>validateChecksumType</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_validateControlGroup" title="validateControlGroup :: Validates and normalizes the control group.">
+                                <span class="description">Validates and normalizes the control group.</span><pre>validateControlGroup</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_validateMimetype" title="validateMimetype :: Validates a mimetype using a regular expression.">
+                                <span class="description">Validates a mimetype using a regular expression.</span><pre>validateMimetype</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_validateState" title="validateState :: Validates and normalizes the datastream state.">
+                                <span class="description">Validates and normalizes the datastream state.</span><pre>validateState</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_validateType" title="validateType :: Validates and normalizes the contentType.">
+                                <span class="description">Validates and normalizes the contentType.</span><pre>validateType</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_validateVersionable" title="validateVersionable :: Validates the versionable setting of a datastream.">
+                                <span class="description">Validates the versionable setting of a datastream.</span><pre>validateVersionable</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected">
+                            <a href="#method_versionableMagicProperty" title="versionableMagicProperty :: ">
+                                <span class="description"></span><pre>versionableMagicProperty</pre>
+                            </a>
+                        </li>
+                                                </ul>
+        </li>
+        <li class="nav-header private">» Private
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="method private">
+                            <a href="#method_deleteTempFile" title="deleteTempFile :: Deletes any temp files that may be present such that we do not &#039;leak&#039;
+over any files.">
+                                <span class="description">Deletes any temp files that may be present such that we do not &#039;leak&#039;
+over any files.</span><pre>deleteTempFile</pre>
+                            </a>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li class="method private inherited">
+                            <a href="#method_unset_members" title="unset_members :: Unsets public members, required for child classes to funciton properly with MagicProperties.">
+                                <span class="description">Unsets public members, required for child classes to funciton properly with MagicProperties.</span><pre>unset_members</pre>
+                            </a>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                </ul>
+        </li>
+        <li class="nav-header">
+            <i class="icon-custom icon-constant"></i> Constants
+            <ul>
+                            </ul>
+        </li>
+    </ul>
+
+
+        </div>
+
+        <div class="span8">
+            <div class="element class">
+                <h1>NewFedoraDatastream</h1>
+                <small style="display: block; text-align: right">
+                                            Extends <a href="../classes/AbstractFedoraDatastream.html">\AbstractFedoraDatastream</a>
+                                                        </small>
+                <p class="short_description">This defines a new fedora datastream. This is the class used to contain the
+inforamtion for a new fedora datastream before it is ingested.</p>
+                <div class="details">
+                    <div class="long_description">
+                        <p>This code lets the user define a new method that will be called when a
+property is accessed. Any method that ends in MagicProperty is code that
+implements a magic property.</p>
+<p>Usage Example</p>
+                    </div>
+                    <table class="table table-bordered">
+                                                                                    <tr>
+                                    <th>
+                                        package
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Default</p>
+                                    </td>
+                                </tr>
+                                                                                                                                                                                </table>
+
+                    <h3><i class="icon-custom icon-method"></i> Methods</h3>
+                                                                <a id="method___construct"></a>
+                        <div class="element clickable method public  method___construct inherited" data-toggle="collapse" data-target=".method___construct .collapse">
+                            <h2>Unsets public members.</h2>
+                            <pre>__construct() </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>We only define the public members of the object for Doxygen, they aren't actually accessed or used,
+and if they are not unset, they can cause problems after unserialization.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___destruct"></a>
+                        <div class="element clickable method public  method___destruct" data-toggle="collapse" data-target=".method___destruct .collapse">
+                            <h2>__destruct</h2>
+                            <pre>__destruct() </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___get"></a>
+                        <div class="element clickable method public  method___get inherited" data-toggle="collapse" data-target=".method___get .collapse">
+                            <h2>This implements the PHP __get function which is utilized for reading data
+from inaccessible properties. It wraps it by calling the appropriatly named
+method in the inherteting class.</h2>
+                            <pre>__get(string $name) : void</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p><a href="http://php.net/manual/en/language.oop5.overloading.php">http://php.net/manual/en/language.oop5.overloading.php</a></p></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of the function being called.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___isset"></a>
+                        <div class="element clickable method public  method___isset inherited" data-toggle="collapse" data-target=".method___isset .collapse">
+                            <h2>This implements the PHP __isset function which is utilized for testing if
+data in inaccessable properties is set. This function calls the
+approprietly named method in the inhereting class.</h2>
+                            <pre>__isset(string $name) : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p><a href="http://php.net/manual/en/language.oop5.overloading.php">http://php.net/manual/en/language.oop5.overloading.php</a></p></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of the function being called.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>If the variable is set.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___set"></a>
+                        <div class="element clickable method public  method___set inherited" data-toggle="collapse" data-target=".method___set .collapse">
+                            <h2>This implements the PHP __set function which is utilized for setting
+inaccessable properties.</h2>
+                            <pre>__set(string $name, void $value) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p><a href="http://php.net/manual/en/language.oop5.overloading.php">http://php.net/manual/en/language.oop5.overloading.php</a></p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The property to set.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code>void</code><p><p>The value it should be set with.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___unset"></a>
+                        <div class="element clickable method public  method___unset inherited" data-toggle="collapse" data-target=".method___unset .collapse">
+                            <h2>This implements the PHP __unset function which is utilized for unsetting
+inaccessable properties.</h2>
+                            <pre>__unset(string $name) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p><a href="http://php.net/manual/en/language.oop5.overloading.php">http://php.net/manual/en/language.oop5.overloading.php</a></p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The property to unset</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___wakeup"></a>
+                        <div class="element clickable method public  method___wakeup inherited" data-toggle="collapse" data-target=".method___wakeup .collapse">
+                            <h2>Upon unserialization unset any public members.</h2>
+                            <pre>__wakeup() </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_checksumMagicProperty"></a>
+                        <div class="element clickable method protected  method_checksumMagicProperty" data-toggle="collapse" data-target=".method_checksumMagicProperty .collapse">
+                            <h2>checksumMagicProperty</h2>
+                            <pre>checksumMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::checksum
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    todo
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>this should be refined a bit</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_checksumTypeMagicProperty"></a>
+                        <div class="element clickable method protected  method_checksumTypeMagicProperty" data-toggle="collapse" data-target=".method_checksumTypeMagicProperty .collapse">
+                            <h2>checksumTypeMagicProperty</h2>
+                            <pre>checksumTypeMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::checksumType
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_contentMagicProperty"></a>
+                        <div class="element clickable method protected  method_contentMagicProperty" data-toggle="collapse" data-target=".method_contentMagicProperty .collapse">
+                            <h2>contentMagicProperty</h2>
+                            <pre>contentMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::content
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_controlGroupMagicProperty"></a>
+                        <div class="element clickable method protected  method_controlGroupMagicProperty inherited" data-toggle="collapse" data-target=".method_controlGroupMagicProperty .collapse">
+                            <h2>controlGroupMagicProperty</h2>
+                            <pre>controlGroupMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::controlGroup
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_delete"></a>
+                        <div class="element clickable method public  method_delete inherited" data-toggle="collapse" data-target=".method_delete .collapse">
+                            <h2>This will set the state of the datastream to deleted.</h2>
+                            <pre>delete() </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                <span class="label">abstract</span>                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_deleteTempFile"></a>
+                        <div class="element clickable method private  method_deleteTempFile" data-toggle="collapse" data-target=".method_deleteTempFile .collapse">
+                            <h2>Deletes any temp files that may be present such that we do not &#039;leak&#039;
+over any files.</h2>
+                            <pre>deleteTempFile() </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_formatMagicProperty"></a>
+                        <div class="element clickable method protected  method_formatMagicProperty" data-toggle="collapse" data-target=".method_formatMagicProperty .collapse">
+                            <h2>formatMagicProperty</h2>
+                            <pre>formatMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::format
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getContent"></a>
+                        <div class="element clickable method public  method_getContent inherited" data-toggle="collapse" data-target=".method_getContent .collapse">
+                            <h2>Get the contents of a datastream and output it to the file provided.</h2>
+                            <pre>getContent(string $file) : TRUE</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                <span class="label">abstract</span>                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$file</h4>
+                                                <code>string</code><p><p>The path of the file to output the contents of the datastream to.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>TRUE</code><p><p>on success or FALSE on failure.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getGeneralMagicPropertyMethodName"></a>
+                        <div class="element clickable method protected  method_getGeneralMagicPropertyMethodName inherited" data-toggle="collapse" data-target=".method_getGeneralMagicPropertyMethodName .collapse">
+                            <h2>Returns the name of the magic property. Makes it easy to change what we
+use as the name.</h2>
+                            <pre>getGeneralMagicPropertyMethodName( $name) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_idMagicProperty"></a>
+                        <div class="element clickable method protected  method_idMagicProperty inherited" data-toggle="collapse" data-target=".method_idMagicProperty .collapse">
+                            <h2>idMagicProperty</h2>
+                            <pre>idMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::id
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_isDatastreamProperySet"></a>
+                        <div class="element clickable method protected  method_isDatastreamProperySet inherited" data-toggle="collapse" data-target=".method_isDatastreamProperySet .collapse">
+                            <h2>This is a replacement for isset when things can&#039;t be unset. So we define
+a default value, then return TRUE or FALSE based on if it is set.</h2>
+                            <pre>isDatastreamProperySet(\anything $actual, \anything $unsetval) : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$actual</h4>
+                                                <code>\anything</code><p><p>The value we are testing.</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$unsetval</h4>
+                                                <code>\anything</code><p><p>The value it would be if it was unset.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>TRUE or FALSE</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_labelMagicProperty"></a>
+                        <div class="element clickable method protected  method_labelMagicProperty" data-toggle="collapse" data-target=".method_labelMagicProperty .collapse">
+                            <h2>labelMagicProperty</h2>
+                            <pre>labelMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::label
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_logMessageMagicProperty"></a>
+                        <div class="element clickable method protected  method_logMessageMagicProperty" data-toggle="collapse" data-target=".method_logMessageMagicProperty .collapse">
+                            <h2>logMessageMagicProperty</h2>
+                            <pre>logMessageMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::logMessage
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_mimetypeMagicProperty"></a>
+                        <div class="element clickable method protected  method_mimetypeMagicProperty" data-toggle="collapse" data-target=".method_mimetypeMagicProperty .collapse">
+                            <h2>mimetypeMagicProperty</h2>
+                            <pre>mimetypeMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::mimetype
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_propertyIsMagical"></a>
+                        <div class="element clickable method protected  method_propertyIsMagical inherited" data-toggle="collapse" data-target=".method_propertyIsMagical .collapse">
+                            <h2>Test if a property appears to be magical.</h2>
+                            <pre>propertyIsMagical(string $name) : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of a property to test.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>TRUE if the property appears to be magically implemented; otherwise,
+FALSE.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setContentFromFile"></a>
+                        <div class="element clickable method public  method_setContentFromFile inherited" data-toggle="collapse" data-target=".method_setContentFromFile .collapse">
+                            <h2>Set the contents of the datastream from a file.</h2>
+                            <pre>setContentFromFile(string $file) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                <span class="label">abstract</span>                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$file</h4>
+                                                <code>string</code><p><p>The full path of the file to set to the contents of the datastream.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setContentFromString"></a>
+                        <div class="element clickable method public  method_setContentFromString inherited" data-toggle="collapse" data-target=".method_setContentFromString .collapse">
+                            <h2>Set the contents of the datastream from a string.</h2>
+                            <pre>setContentFromString(string $string) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                <span class="label">abstract</span>                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$string</h4>
+                                                <code>string</code><p><p>The string whose contents will become the contents of the datastream.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setContentFromUrl"></a>
+                        <div class="element clickable method public  method_setContentFromUrl inherited" data-toggle="collapse" data-target=".method_setContentFromUrl .collapse">
+                            <h2>Set the contents of the datastream from a URL. The contents of this
+URL will be fetched, and the datastream will be updated to contain the
+contents of the URL.</h2>
+                            <pre>setContentFromUrl(string $url) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                <span class="label">abstract</span>                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$url</h4>
+                                                <code>string</code><p><p>The full URL to fetch.</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_stateMagicProperty"></a>
+                        <div class="element clickable method protected  method_stateMagicProperty" data-toggle="collapse" data-target=".method_stateMagicProperty .collapse">
+                            <h2>stateMagicProperty</h2>
+                            <pre>stateMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::state
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_unset_members"></a>
+                        <div class="element clickable method private  method_unset_members inherited" data-toggle="collapse" data-target=".method_unset_members .collapse">
+                            <h2>Unsets public members, required for child classes to funciton properly with MagicProperties.</h2>
+                            <pre>unset_members() </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_urlMagicProperty"></a>
+                        <div class="element clickable method protected  method_urlMagicProperty" data-toggle="collapse" data-target=".method_urlMagicProperty .collapse">
+                            <h2>urlMagicProperty</h2>
+                            <pre>urlMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::url
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_validateChecksumType"></a>
+                        <div class="element clickable method protected  method_validateChecksumType inherited" data-toggle="collapse" data-target=".method_validateChecksumType .collapse">
+                            <h2>Validates and normalizes the checksumType arguement.</h2>
+                            <pre>validateChecksumType(string $type) : mixed</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$type</h4>
+                                                <code>string</code><p><p>The input string</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>mixed</code><p><p>FALSE if validation fails. The checksumType string otherwise.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_validateControlGroup"></a>
+                        <div class="element clickable method protected  method_validateControlGroup" data-toggle="collapse" data-target=".method_validateControlGroup .collapse">
+                            <h2>Validates and normalizes the control group.</h2>
+                            <pre>validateControlGroup(string $value) : mixed</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code>string</code><p><p>The passed in control group.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>mixed</code><p><p>The stirng for hte controlgroup or FALSE if validation fails.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_validateMimetype"></a>
+                        <div class="element clickable method protected  method_validateMimetype inherited" data-toggle="collapse" data-target=".method_validateMimetype .collapse">
+                            <h2>Validates a mimetype using a regular expression.</h2>
+                            <pre>validateMimetype(string $mime) : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    todo
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>test if this covers all cases.</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$mime</h4>
+                                                <code>string</code><p><p>A string representing a mimetype</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>TRUE if the string looks like a mimetype.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_validateState"></a>
+                        <div class="element clickable method protected  method_validateState inherited" data-toggle="collapse" data-target=".method_validateState .collapse">
+                            <h2>Validates and normalizes the datastream state.</h2>
+                            <pre>validateState(string $state) : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$state</h4>
+                                                <code>string</code><p><p>The input state</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>Returns FALSE if validation fails, otherwise it returns the normalized
+datastream state.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_validateType"></a>
+                        <div class="element clickable method protected  method_validateType" data-toggle="collapse" data-target=".method_validateType .collapse">
+                            <h2>Validates and normalizes the contentType.</h2>
+                            <pre>validateType(string $type) : mixed</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$type</h4>
+                                                <code>string</code><p><p>The passed in value for type.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>mixed</code><p><p>The stirng for the type or FALSE if validation fails.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_validateVersionable"></a>
+                        <div class="element clickable method protected  method_validateVersionable inherited" data-toggle="collapse" data-target=".method_validateVersionable .collapse">
+                            <h2>Validates the versionable setting of a datastream.</h2>
+                            <pre>validateVersionable(mixed $versionable) : boolean</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$versionable</h4>
+                                                <code>mixed</code><p><p>The input versionable arguement.</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>Returns TRUE if the arguement is a boolean, FALSE otherwise.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_versionableMagicProperty"></a>
+                        <div class="element clickable method protected  method_versionableMagicProperty" data-toggle="collapse" data-target=".method_versionableMagicProperty .collapse">
+                            <h2>versionableMagicProperty</h2>
+                            <pre>versionableMagicProperty( $function,  $value) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    see
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                            \AbstractDatastream::versionable
+                                                                                                                
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$function</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                    
+                    
+                                                                <h3><i class="icon-custom icon-property"></i> Properties</h3>
+                                                    <a id="property_copied"> </a>
+                            <div class="element clickable property  protected property_copied" data-toggle="collapse" data-target=".property_copied .collapse">
+                                <h2>Used to determine if we should delete the contents of this datastream when
+this class is destoryed.</h2>
+                                <pre>copied : boolean</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_repository"> </a>
+                            <div class="element clickable property  public property_repository inherited" data-toggle="collapse" data-target=".property_repository .collapse">
+                                <h2>The repository this object belongs to.</h2>
+                                <pre>repository : \FedoraRepository</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code><a href="../classes/FedoraRepository.html">\FedoraRepository</a></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_parent"> </a>
+                            <div class="element clickable property  public property_parent inherited" data-toggle="collapse" data-target=".property_parent .collapse">
+                                <h2>The fedora object this datastream belongs to.</h2>
+                                <pre>parent : \AbstractFedoraObject</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code><a href="../classes/AbstractFedoraObject.html">\AbstractFedoraObject</a></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_relationships"> </a>
+                            <div class="element clickable property  public property_relationships inherited" data-toggle="collapse" data-target=".property_relationships .collapse">
+                                <h2>An object for manipulating the fedora relationships related to this DS.</h2>
+                                <pre>relationships : \FedoraRelsInt</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code><a href="../classes/FedoraRelsInt.html">\FedoraRelsInt</a></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_datastreamId"> </a>
+                            <div class="element clickable property  protected property_datastreamId inherited" data-toggle="collapse" data-target=".property_datastreamId .collapse">
+                                <h2>The read only ID of the datastream.</h2>
+                                <pre>datastreamId : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_datastreamInfo"> </a>
+                            <div class="element clickable property  protected property_datastreamInfo inherited" data-toggle="collapse" data-target=".property_datastreamInfo .collapse">
+                                <h2>The array defining what is in the datastream.</h2>
+                                <pre>datastreamInfo : array</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <th>
+                                                        see
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>array</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_fedoraRelsIntClass"> </a>
+                            <div class="element clickable property  protected property_fedoraRelsIntClass inherited" data-toggle="collapse" data-target=".property_fedoraRelsIntClass .collapse">
+                                <h2>fedoraRelsIntClass</h2>
+                                <pre>fedoraRelsIntClass : </pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_fedoraDatastreamVersionClass"> </a>
+                            <div class="element clickable property  protected property_fedoraDatastreamVersionClass inherited" data-toggle="collapse" data-target=".property_fedoraDatastreamVersionClass .collapse">
+                                <h2>fedoraDatastreamVersionClass</h2>
+                                <pre>fedoraDatastreamVersionClass : </pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_id"> </a>
+                            <div class="element clickable property  public property_id inherited" data-toggle="collapse" data-target=".property_id .collapse">
+                                <h2>The identifier of the datastream. This is a read-only property.</h2>
+                                <pre>id : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_label"> </a>
+                            <div class="element clickable property  public property_label inherited" data-toggle="collapse" data-target=".property_label .collapse">
+                                <h2>The label of the datastream. Fedora limits the label to be 255 characters.</h2>
+                                <pre>label : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"><p>Anything after this amount is truncated.</p></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_location"> </a>
+                            <div class="element clickable property  public property_location inherited" data-toggle="collapse" data-target=".property_location .collapse">
+                                <h2>the location of consists of a combination of
+datastream id and datastream version id</h2>
+                                <pre>location : \type</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>\type</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_controlGroup"> </a>
+                            <div class="element clickable property  public property_controlGroup inherited" data-toggle="collapse" data-target=".property_controlGroup .collapse">
+                                <h2>The control group of the datastream. This property is read-only. This will
+return one of: &quot;X&quot;, &quot;M&quot;, &quot;R&quot;, or &quot;E&quot; (Inline *X*ML, *M*anaged Content,
+*R*edirect, or *E*xternal Referenced). Defaults to &quot;M&quot;.</h2>
+                                <pre>controlGroup : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_versionable"> </a>
+                            <div class="element clickable property  public property_versionable inherited" data-toggle="collapse" data-target=".property_versionable .collapse">
+                                <h2>This defines if the datastream will be versioned or not.</h2>
+                                <pre>versionable : boolean</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_state"> </a>
+                            <div class="element clickable property  public property_state inherited" data-toggle="collapse" data-target=".property_state .collapse">
+                                <h2>The state of the datastream. This will be one of: &quot;A&quot;, &quot;I&quot;, &quot;D&quot;. When
+setting the property you can use: A, I, D or Active, Inactive, Deleted.</h2>
+                                <pre>state : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_mimetype"> </a>
+                            <div class="element clickable property  public property_mimetype inherited" data-toggle="collapse" data-target=".property_mimetype .collapse">
+                                <h2>The mimetype of the datastrem.</h2>
+                                <pre>mimetype : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_format"> </a>
+                            <div class="element clickable property  public property_format inherited" data-toggle="collapse" data-target=".property_format .collapse">
+                                <h2>The format of the datastream.</h2>
+                                <pre>format : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_size"> </a>
+                            <div class="element clickable property  public property_size inherited" data-toggle="collapse" data-target=".property_size .collapse">
+                                <h2>The size in bytes of the datastream. This is only valid once a datastream
+has been ingested.</h2>
+                                <pre>size : integer</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>integer</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_checksum"> </a>
+                            <div class="element clickable property  public property_checksum inherited" data-toggle="collapse" data-target=".property_checksum .collapse">
+                                <h2>The base64 encoded checksum string.</h2>
+                                <pre>checksum : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_checksumType"> </a>
+                            <div class="element clickable property  public property_checksumType inherited" data-toggle="collapse" data-target=".property_checksumType .collapse">
+                                <h2>The type of checksum that will be done on this datastream. Defaults to
+DISABLED. One of: DISABLED, MD5, SHA-1, SHA-256, SHA-384, SHA-512.</h2>
+                                <pre>checksumType : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_createdDate"> </a>
+                            <div class="element clickable property  public property_createdDate inherited" data-toggle="collapse" data-target=".property_createdDate .collapse">
+                                <h2>The date the datastream was created.</h2>
+                                <pre>createdDate : \FedoraDate</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code><a href="../classes/FedoraDate.html">\FedoraDate</a></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_content"> </a>
+                            <div class="element clickable property  public property_content inherited" data-toggle="collapse" data-target=".property_content .collapse">
+                                <h2>The contents of the datastream as a string. This can only be set for
+M and X datastreams. For R and E datastreams the URL property needs to be
+set which will change the contents of this property. This should only be
+used for small files, as it loads the contents into PHP memory. Otherwise
+you should use the getContent function.</h2>
+                                <pre>content : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_url"> </a>
+                            <div class="element clickable property  public property_url inherited" data-toggle="collapse" data-target=".property_url .collapse">
+                                <h2>This is only valid for R and E datastreams. This is the URL that the
+datastream references.</h2>
+                                <pre>url : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_logMessage"> </a>
+                            <div class="element clickable property  public property_logMessage inherited" data-toggle="collapse" data-target=".property_logMessage .collapse">
+                                <h2>This is the log message that will be associated with the action in the
+Fedora audit datastream.</h2>
+                                <pre>logMessage : string</pre>
+                                <div class="labels">
+                                    <span class="label">inherited</span>                                                                    </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            </div>
+            </div>
+            <a id="\NewFedoraDatastream"></a>
+            <ul class="breadcrumb">
+                <li><a href="../index.html"><i class="icon-custom icon-class"></i></a></li>
+                    
+    
+    <li><span class="divider">\</span><a href="../namespaces/default.html">\</a></li>
+
+                <li class="active"><span class="divider">\</span><a href="../classes/NewFedoraDatastream.html">NewFedoraDatastream</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+        <footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by
+            <a href="http://glyphicons.com/">Glyphicons</a>.<br/>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
+            generated on Thu, 22 Oct 2015 11:06:12 -0400.<br/>
+    </footer>
+    </body>
+</html>
