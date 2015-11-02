@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>    API Documentation &raquo; \EasyRdf_Format
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+            <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+            <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/template.js" type="text/javascript"></script>
+        <script src="../js/prettify/prettify.min.js" type="text/javascript"></script>
+    
+            <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png"/>
+    </head>
+<body>
+
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> </a>
+                <a class="brand" href="../index.html">API Documentation</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                API Documentation <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a>Namespaces</a></li>
+                                                                        <li><a href="../namespaces/Islandora.html">Islandora</a></li>
+                                                                        <li><a href="../namespaces/Composer.html">Composer</a></li>
+                                                                        <li><a href="../namespaces/hanneskod.html">hanneskod</a></li>
+                                                                        <li><a href="../namespaces/PhpParser.html">PhpParser</a></li>
+                                                                        <li><a href="../namespaces/Symfony.html">Symfony</a></li>
+                                                                                                                                </ul>
+                        </li>
+                        <li class="dropdown" id="charts-menu">
+                            <a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                Charts <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../graph_class.html">
+                                        <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="reports-menu">
+                            <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../errors.html">
+                                        <i class="icon-list-alt"></i>&#160;Errors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../markers.html">
+                                        <i class="icon-list-alt"></i>&#160;Markers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../deprecated.html">
+                                        <i class="icon-list-alt"></i>&#160;Deprecated
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="go_to_top">
+            <a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>
+        </div>
+    </div>
+    
+    <div id="___" class="container">
+        <noscript>
+            <div class="alert alert-warning">
+                Javascript is disabled; several features are only available if Javascript is enabled.
+            </div>
+        </noscript>
+
+        
+            <style>
+        .deprecated h2 {
+            text-decoration: line-through;
+        }
+    </style>
+    <div class="row">
+        <div class="span4">
+                    <div class="btn-group view pull-right" data-toggle="buttons-radio">
+        <button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button>
+        <button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+    </div>
+    <div class="btn-group visibility" data-toggle="buttons-checkbox">
+        <button class="btn public active" title="Show public elements">Public</button>
+        <button class="btn protected" title="Show protected elements">Protected</button>
+        <button class="btn private" title="Show private elements">Private</button>
+        <button class="btn inherited active" title="Show inherited elements">Inherited</button>
+    </div>
+
+        <ul class="side-nav nav nav-list">
+        <li class="nav-header">
+            <i class="icon-custom icon-method"></i> Methods
+            <ul>
+                                                                                                    <li class="method public">
+        <a href="#method___toString" title="__toString :: Magic method to return the name of the format when casted to string">
+            <span class="description">Magic method to return the name of the format when casted to string</span><pre>__toString</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_formatExists" title="formatExists :: Check if a named graph exists">
+            <span class="description">Check if a named graph exists</span><pre>formatExists</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getDefaultExtension" title="getDefaultExtension :: Get the default registered file extension (filename suffix) for a format object">
+            <span class="description">Get the default registered file extension (filename suffix) for a format object</span><pre>getDefaultExtension</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getDefaultMimeType" title="getDefaultMimeType :: Get the default registered mime type for a format object">
+            <span class="description">Get the default registered mime type for a format object</span><pre>getDefaultMimeType</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getExtensions" title="getExtensions :: Get all the registered file extensions (filename suffix) for a format object">
+            <span class="description">Get all the registered file extensions (filename suffix) for a format object</span><pre>getExtensions</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getFormat" title="getFormat :: Get a EasyRdf_Format from a name, uri or mime type">
+            <span class="description">Get a EasyRdf_Format from a name, uri or mime type</span><pre>getFormat</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getFormats" title="getFormats :: Get a list of all the registered formats">
+            <span class="description">Get a list of all the registered formats</span><pre>getFormats</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getHttpAcceptHeader" title="getHttpAcceptHeader :: Generates an HTTP Accept header string">
+            <span class="description">Generates an HTTP Accept header string</span><pre>getHttpAcceptHeader</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getLabel" title="getLabel :: Get the label for a format object">
+            <span class="description">Get the label for a format object</span><pre>getLabel</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getMimeTypes" title="getMimeTypes :: Get all the registered mime types for a format object">
+            <span class="description">Get all the registered mime types for a format object</span><pre>getMimeTypes</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getName" title="getName :: Get the name of a format object">
+            <span class="description">Get the name of a format object</span><pre>getName</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getNames" title="getNames :: Get a list of format names">
+            <span class="description">Get a list of format names</span><pre>getNames</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getParserClass" title="getParserClass :: Get the name of the class to use to parse the format">
+            <span class="description">Get the name of the class to use to parse the format</span><pre>getParserClass</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getSerialiserClass" title="getSerialiserClass :: Get the name of the class to use to serialise the format">
+            <span class="description">Get the name of the class to use to serialise the format</span><pre>getSerialiserClass</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getUri" title="getUri :: Get the URI for a format object">
+            <span class="description">Get the URI for a format object</span><pre>getUri</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_guessFormat" title="guessFormat :: Attempt to guess the document format from some content.">
+            <span class="description">Attempt to guess the document format from some content.</span><pre>guessFormat</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_newParser" title="newParser :: Create a new parser to parse this format">
+            <span class="description">Create a new parser to parse this format</span><pre>newParser</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_newSerialiser" title="newSerialiser :: Create a new serialiser to parse this format">
+            <span class="description">Create a new serialiser to parse this format</span><pre>newSerialiser</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_register" title="register :: Register a new format">
+            <span class="description">Register a new format</span><pre>register</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_registerParser" title="registerParser :: Class method to register a parser class to a format name">
+            <span class="description">Class method to register a parser class to a format name</span><pre>registerParser</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_registerSerialiser" title="registerSerialiser :: Class method to register a serialiser class to a format name">
+            <span class="description">Class method to register a serialiser class to a format name</span><pre>registerSerialiser</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setExtensions" title="setExtensions :: Set the file format extensions (filename suffix) for a format object">
+            <span class="description">Set the file format extensions (filename suffix) for a format object</span><pre>setExtensions</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setLabel" title="setLabel :: Set the label for a format object">
+            <span class="description">Set the label for a format object</span><pre>setLabel</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setMimeTypes" title="setMimeTypes :: Set the MIME Types for a format object">
+            <span class="description">Set the MIME Types for a format object</span><pre>setMimeTypes</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setParserClass" title="setParserClass :: Set the parser to use for a format">
+            <span class="description">Set the parser to use for a format</span><pre>setParserClass</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setSerialiserClass" title="setSerialiserClass :: Set the serialiser to use for a format">
+            <span class="description">Set the serialiser to use for a format</span><pre>setSerialiserClass</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setUri" title="setUri :: Set the URI for a format object">
+            <span class="description">Set the URI for a format object</span><pre>setUri</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_unregister" title="unregister :: Remove a format from the registry">
+            <span class="description">Remove a format from the registry</span><pre>unregister</pre>
+        </a>
+    </li>
+
+                                                </ul>
+        </li>
+        <li class="nav-header protected">» Protected
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+        </li>
+        <li class="nav-header private">» Private
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+        </li>
+        <li class="nav-header">
+            <i class="icon-custom icon-constant"></i> Constants
+            <ul>
+                            </ul>
+        </li>
+    </ul>
+
+
+        </div>
+
+        <div class="span8">
+            <div class="element class">
+                <h1>EasyRdf_Format</h1>
+                <small style="display: block; text-align: right">
+                                                        </small>
+                <p class="short_description">Class the represents an RDF file format.</p>
+                <div class="details">
+                    <div class="long_description">
+                        <p>For each format, the name, label, URIs and associated MIME Types are
+stored. A single parser and serialiser can also be registered to each
+format.</p>
+                    </div>
+                    <table class="table table-bordered">
+                                                                                    <tr>
+                                    <th>
+                                        package
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>EasyRdf</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        copyright
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Copyright (c) 2009-2013 Nicholas J Humfrey</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        license
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p><a href="http://www.opensource.org/licenses/bsd-license.php">http://www.opensource.org/licenses/bsd-license.php</a></p>
+                                    </td>
+                                </tr>
+                                                                                                                                                                                </table>
+
+                    <h3><i class="icon-custom icon-method"></i> Methods</h3>
+                                                                <a id="method___toString"></a>
+                        <div class="element clickable method public  method___toString" data-toggle="collapse" data-target=".method___toString .collapse">
+                            <h2>Magic method to return the name of the format when casted to string</h2>
+                            <pre>__toString() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The name of the format</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_formatExists"></a>
+                        <div class="element clickable method public  method_formatExists" data-toggle="collapse" data-target=".method_formatExists .collapse">
+                            <h2>Check if a named graph exists</h2>
+                            <pre>formatExists(string $name) : boolean</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>the name of the format</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p><p>true if the format exists</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getDefaultExtension"></a>
+                        <div class="element clickable method public  method_getDefaultExtension" data-toggle="collapse" data-target=".method_getDefaultExtension .collapse">
+                            <h2>Get the default registered file extension (filename suffix) for a format object</h2>
+                            <pre>getDefaultExtension() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The default extension as a string.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getDefaultMimeType"></a>
+                        <div class="element clickable method public  method_getDefaultMimeType" data-toggle="collapse" data-target=".method_getDefaultMimeType .collapse">
+                            <h2>Get the default registered mime type for a format object</h2>
+                            <pre>getDefaultMimeType() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The default mime type as a string.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getExtensions"></a>
+                        <div class="element clickable method public  method_getExtensions" data-toggle="collapse" data-target=".method_getExtensions .collapse">
+                            <h2>Get all the registered file extensions (filename suffix) for a format object</h2>
+                            <pre>getExtensions() : array</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>array</code><p><p>One or more extensions as an array</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getFormat"></a>
+                        <div class="element clickable method public  method_getFormat" data-toggle="collapse" data-target=".method_getFormat .collapse">
+                            <h2>Get a EasyRdf_Format from a name, uri or mime type</h2>
+                            <pre>getFormat(string $query) : object</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    throws
+                                                </th>
+                                                <td>
+                                                                                                                                                                        
+                                                                                                                                                                        <p>if no format is found</p>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$query</h4>
+                                                <code>string</code><p><p>a query string to search for</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>object</code><p><p>the first EasyRdf_Format that matches the query</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getFormats"></a>
+                        <div class="element clickable method public  method_getFormats" data-toggle="collapse" data-target=".method_getFormats .collapse">
+                            <h2>Get a list of all the registered formats</h2>
+                            <pre>getFormats() : array</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>array</code><p><p>An array of format objects</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getHttpAcceptHeader"></a>
+                        <div class="element clickable method public  method_getHttpAcceptHeader" data-toggle="collapse" data-target=".method_getHttpAcceptHeader .collapse">
+                            <h2>Generates an HTTP Accept header string</h2>
+                            <pre>getHttpAcceptHeader(array $extraTypes = array()) : string</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>The string will contain all of the MIME Types that we
+are able to parse.</p>
+<p>It is also possible to specify additional MIME types
+in the form array('text/plain' =&gt; 0.5) where 0.5 is the
+q value for that type. The types are sorted by q value
+before constructing the string.</p></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$extraTypes</h4>
+                                                <code>array</code><p><p>extra MIME types to add</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>list of supported MIME types</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getLabel"></a>
+                        <div class="element clickable method public  method_getLabel" data-toggle="collapse" data-target=".method_getLabel .collapse">
+                            <h2>Get the label for a format object</h2>
+                            <pre>getLabel() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The format label (e.g. RDF/XML)</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getMimeTypes"></a>
+                        <div class="element clickable method public  method_getMimeTypes" data-toggle="collapse" data-target=".method_getMimeTypes .collapse">
+                            <h2>Get all the registered mime types for a format object</h2>
+                            <pre>getMimeTypes() : array</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>array</code><p><p>One or more MIME types in an array with
+the mime type as the key and q value as the value</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getName"></a>
+                        <div class="element clickable method public  method_getName" data-toggle="collapse" data-target=".method_getName .collapse">
+                            <h2>Get the name of a format object</h2>
+                            <pre>getName() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The name of the format (e.g. rdfxml)</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getNames"></a>
+                        <div class="element clickable method public  method_getNames" data-toggle="collapse" data-target=".method_getNames .collapse">
+                            <h2>Get a list of format names</h2>
+                            <pre>getNames() : array</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>array</code><p><p>An array of formats name</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getParserClass"></a>
+                        <div class="element clickable method public  method_getParserClass" data-toggle="collapse" data-target=".method_getParserClass .collapse">
+                            <h2>Get the name of the class to use to parse the format</h2>
+                            <pre>getParserClass() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The name of the class</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getSerialiserClass"></a>
+                        <div class="element clickable method public  method_getSerialiserClass" data-toggle="collapse" data-target=".method_getSerialiserClass .collapse">
+                            <h2>Get the name of the class to use to serialise the format</h2>
+                            <pre>getSerialiserClass() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The name of the class</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getUri"></a>
+                        <div class="element clickable method public  method_getUri" data-toggle="collapse" data-target=".method_getUri .collapse">
+                            <h2>Get the URI for a format object</h2>
+                            <pre>getUri() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The format URI</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_guessFormat"></a>
+                        <div class="element clickable method public  method_guessFormat" data-toggle="collapse" data-target=".method_guessFormat .collapse">
+                            <h2>Attempt to guess the document format from some content.</h2>
+                            <pre>guessFormat(string $data, string $filename = null) : object</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>If $filename is given, then the suffix is first used to guess the format.</p>
+<p>If the document format is not recognised, null is returned.</p></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$data</h4>
+                                                <code>string</code><p><p>The document data</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$filename</h4>
+                                                <code>string</code><p><p>Optional filename</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>object</code><p><p>EasyRdf_Format The format object</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_newParser"></a>
+                        <div class="element clickable method public  method_newParser" data-toggle="collapse" data-target=".method_newParser .collapse">
+                            <h2>Create a new parser to parse this format</h2>
+                            <pre>newParser() : object</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>object</code><p><p>The new parser object</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_newSerialiser"></a>
+                        <div class="element clickable method public  method_newSerialiser" data-toggle="collapse" data-target=".method_newSerialiser .collapse">
+                            <h2>Create a new serialiser to parse this format</h2>
+                            <pre>newSerialiser() : object</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>object</code><p><p>The new serialiser object</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_register"></a>
+                        <div class="element clickable method public  method_register" data-toggle="collapse" data-target=".method_register .collapse">
+                            <h2>Register a new format</h2>
+                            <pre>register(string $name, string $label = null, string $uri = null, string $mimeTypes = array(), string $extensions = array()) : object</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of the format (e.g. ntriples)</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$label</h4>
+                                                <code>string</code><p><p>The label for the format (e.g. N-Triples)</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$uri</h4>
+                                                <code>string</code><p><p>The URI for the format</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$mimeTypes</h4>
+                                                <code>string</code><p><p>One or more mime types for the format</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$extensions</h4>
+                                                <code>string</code><p><p>One or more extensions (file suffix)</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>object</code><p><p>The new EasyRdf_Format object</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_registerParser"></a>
+                        <div class="element clickable method public  method_registerParser" data-toggle="collapse" data-target=".method_registerParser .collapse">
+                            <h2>Class method to register a parser class to a format name</h2>
+                            <pre>registerParser(string $name, string $class) </pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of the format (e.g. ntriples)</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$class</h4>
+                                                <code>string</code><p><p>The name of the class (e.g. EasyRdf_Parser_Ntriples)</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_registerSerialiser"></a>
+                        <div class="element clickable method public  method_registerSerialiser" data-toggle="collapse" data-target=".method_registerSerialiser .collapse">
+                            <h2>Class method to register a serialiser class to a format name</h2>
+                            <pre>registerSerialiser(string $name, string $class) </pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of the format (e.g. ntriples)</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$class</h4>
+                                                <code>string</code><p><p>The name of the class (e.g. EasyRdf_Serialiser_Ntriples)</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setExtensions"></a>
+                        <div class="element clickable method public  method_setExtensions" data-toggle="collapse" data-target=".method_setExtensions .collapse">
+                            <h2>Set the file format extensions (filename suffix) for a format object</h2>
+                            <pre>setExtensions(mixed $extensions) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$extensions</h4>
+                                                <code>mixed</code><p><p>One or more file extensions</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setLabel"></a>
+                        <div class="element clickable method public  method_setLabel" data-toggle="collapse" data-target=".method_setLabel .collapse">
+                            <h2>Set the label for a format object</h2>
+                            <pre>setLabel(string $label) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$label</h4>
+                                                <code>string</code><p><p>The new label for the format</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setMimeTypes"></a>
+                        <div class="element clickable method public  method_setMimeTypes" data-toggle="collapse" data-target=".method_setMimeTypes .collapse">
+                            <h2>Set the MIME Types for a format object</h2>
+                            <pre>setMimeTypes(array $mimeTypes) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$mimeTypes</h4>
+                                                <code>array</code><p><p>One or more mime types</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setParserClass"></a>
+                        <div class="element clickable method public  method_setParserClass" data-toggle="collapse" data-target=".method_setParserClass .collapse">
+                            <h2>Set the parser to use for a format</h2>
+                            <pre>setParserClass(string $class) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$class</h4>
+                                                <code>string</code><p><p>The name of the class</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setSerialiserClass"></a>
+                        <div class="element clickable method public  method_setSerialiserClass" data-toggle="collapse" data-target=".method_setSerialiserClass .collapse">
+                            <h2>Set the serialiser to use for a format</h2>
+                            <pre>setSerialiserClass(string $class) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$class</h4>
+                                                <code>string</code><p><p>The name of the class</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setUri"></a>
+                        <div class="element clickable method public  method_setUri" data-toggle="collapse" data-target=".method_setUri .collapse">
+                            <h2>Set the URI for a format object</h2>
+                            <pre>setUri(string $uri) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$uri</h4>
+                                                <code>string</code><p><p>The new URI for the format</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_unregister"></a>
+                        <div class="element clickable method public  method_unregister" data-toggle="collapse" data-target=".method_unregister .collapse">
+                            <h2>Remove a format from the registry</h2>
+                            <pre>unregister(string $name) </pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$name</h4>
+                                                <code>string</code><p><p>The name of the format (e.g. ntriples)</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                    
+                    
+                                                                <h3><i class="icon-custom icon-property"></i> Properties</h3>
+                                                    <a id="property_formats"> </a>
+                            <div class="element clickable property  private property_formats" data-toggle="collapse" data-target=".property_formats .collapse">
+                                <h2>formats</h2>
+                                <pre>formats : </pre>
+                                <div class="labels">
+                                                                        <span class="label">static</span>                                </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_name"> </a>
+                            <div class="element clickable property  private property_name" data-toggle="collapse" data-target=".property_name .collapse">
+                                <h2>name</h2>
+                                <pre>name : </pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_label"> </a>
+                            <div class="element clickable property  private property_label" data-toggle="collapse" data-target=".property_label .collapse">
+                                <h2>label</h2>
+                                <pre>label : </pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_uri"> </a>
+                            <div class="element clickable property  private property_uri" data-toggle="collapse" data-target=".property_uri .collapse">
+                                <h2>uri</h2>
+                                <pre>uri : </pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_mimeTypes"> </a>
+                            <div class="element clickable property  private property_mimeTypes" data-toggle="collapse" data-target=".property_mimeTypes .collapse">
+                                <h2>mimeTypes</h2>
+                                <pre>mimeTypes : </pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_extensions"> </a>
+                            <div class="element clickable property  private property_extensions" data-toggle="collapse" data-target=".property_extensions .collapse">
+                                <h2>extensions</h2>
+                                <pre>extensions : </pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_parserClass"> </a>
+                            <div class="element clickable property  private property_parserClass" data-toggle="collapse" data-target=".property_parserClass .collapse">
+                                <h2>parserClass</h2>
+                                <pre>parserClass : </pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_serialiserClass"> </a>
+                            <div class="element clickable property  private property_serialiserClass" data-toggle="collapse" data-target=".property_serialiserClass .collapse">
+                                <h2>serialiserClass</h2>
+                                <pre>serialiserClass : </pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        
+                                                    </th>
+                                                    <td>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            </div>
+            </div>
+            <a id="\EasyRdf_Format"></a>
+            <ul class="breadcrumb">
+                <li><a href="../index.html"><i class="icon-custom icon-class"></i></a></li>
+                    
+    
+    <li><span class="divider">\</span><a href="../namespaces/default.html">\</a></li>
+
+                <li class="active"><span class="divider">\</span><a href="../classes/EasyRdf_Format.html">EasyRdf_Format</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+        <footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by
+            <a href="http://glyphicons.com/">Glyphicons</a>.<br/>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
+            generated on Mon, 02 Nov 2015 09:34:59 -0500.<br/>
+    </footer>
+    </body>
+</html>

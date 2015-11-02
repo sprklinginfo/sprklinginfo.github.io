@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>    API Documentation &raquo; \EasyRdf_Literal_HexBinary
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+            <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+            <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/template.js" type="text/javascript"></script>
+        <script src="../js/prettify/prettify.min.js" type="text/javascript"></script>
+    
+            <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png"/>
+    </head>
+<body>
+
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> </a>
+                <a class="brand" href="../index.html">API Documentation</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                API Documentation <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a>Namespaces</a></li>
+                                                                        <li><a href="../namespaces/Islandora.html">Islandora</a></li>
+                                                                        <li><a href="../namespaces/Composer.html">Composer</a></li>
+                                                                        <li><a href="../namespaces/hanneskod.html">hanneskod</a></li>
+                                                                        <li><a href="../namespaces/PhpParser.html">PhpParser</a></li>
+                                                                        <li><a href="../namespaces/Symfony.html">Symfony</a></li>
+                                                                                                                                </ul>
+                        </li>
+                        <li class="dropdown" id="charts-menu">
+                            <a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                Charts <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../graph_class.html">
+                                        <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="reports-menu">
+                            <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../errors.html">
+                                        <i class="icon-list-alt"></i>&#160;Errors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../markers.html">
+                                        <i class="icon-list-alt"></i>&#160;Markers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../deprecated.html">
+                                        <i class="icon-list-alt"></i>&#160;Deprecated
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="go_to_top">
+            <a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>
+        </div>
+    </div>
+    
+    <div id="___" class="container">
+        <noscript>
+            <div class="alert alert-warning">
+                Javascript is disabled; several features are only available if Javascript is enabled.
+            </div>
+        </noscript>
+
+        
+            <style>
+        .deprecated h2 {
+            text-decoration: line-through;
+        }
+    </style>
+    <div class="row">
+        <div class="span4">
+                    <div class="btn-group view pull-right" data-toggle="buttons-radio">
+        <button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button>
+        <button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+    </div>
+    <div class="btn-group visibility" data-toggle="buttons-checkbox">
+        <button class="btn public active" title="Show public elements">Public</button>
+        <button class="btn protected" title="Show protected elements">Protected</button>
+        <button class="btn private" title="Show private elements">Private</button>
+        <button class="btn inherited active" title="Show inherited elements">Inherited</button>
+    </div>
+
+        <ul class="side-nav nav nav-list">
+        <li class="nav-header">
+            <i class="icon-custom icon-method"></i> Methods
+            <ul>
+                                                                                                    <li class="method public inherited">
+        <a href="#method___construct" title="__construct :: Constructor for creating a new literal">
+            <span class="description">Constructor for creating a new literal</span><pre>__construct</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method___toString" title="__toString :: Magic method to return the value of a literal as a string">
+            <span class="description">Magic method to return the value of a literal as a string</span><pre>__toString</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_create" title="create :: Create a new literal object">
+            <span class="description">Create a new literal object</span><pre>create</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_deleteDatatypeMapping" title="deleteDatatypeMapping :: Remove the mapping between an RDF datatype and a PHP class name">
+            <span class="description">Remove the mapping between an RDF datatype and a PHP class name</span><pre>deleteDatatypeMapping</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_dumpValue" title="dumpValue :: Return pretty-print view of the literal">
+            <span class="description">Return pretty-print view of the literal</span><pre>dumpValue</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_fromBinary" title="fromBinary :: Constructor for creating a new literal object from a binary blob">
+            <span class="description">Constructor for creating a new literal object from a binary blob</span><pre>fromBinary</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_getDatatype" title="getDatatype :: Returns the shortened datatype URI of the literal.">
+            <span class="description">Returns the shortened datatype URI of the literal.</span><pre>getDatatype</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_getDatatypeForValue" title="getDatatypeForValue :: Get datatype URI for a PHP value.">
+            <span class="description">Get datatype URI for a PHP value.</span><pre>getDatatypeForValue</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_getDatatypeUri" title="getDatatypeUri :: Returns the full datatype URI of the literal.">
+            <span class="description">Returns the full datatype URI of the literal.</span><pre>getDatatypeUri</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_getLang" title="getLang :: Returns the language of the literal.">
+            <span class="description">Returns the language of the literal.</span><pre>getLang</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_getValue" title="getValue :: Returns the value of the literal.">
+            <span class="description">Returns the value of the literal.</span><pre>getValue</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_setDatatypeMapping" title="setDatatypeMapping :: Register an RDF datatype with a PHP class name">
+            <span class="description">Register an RDF datatype with a PHP class name</span><pre>setDatatypeMapping</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_toBinary" title="toBinary :: Decode the hexadecimal string into a binary blob">
+            <span class="description">Decode the hexadecimal string into a binary blob</span><pre>toBinary</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public inherited">
+        <a href="#method_toRdfPhp" title="toRdfPhp :: Returns the properties of the literal as an associative array">
+            <span class="description">Returns the properties of the literal as an associative array</span><pre>toRdfPhp</pre>
+        </a>
+    </li>
+
+                                                </ul>
+        </li>
+        <li class="nav-header protected">» Protected
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+        </li>
+        <li class="nav-header private">» Private
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+        </li>
+        <li class="nav-header">
+            <i class="icon-custom icon-constant"></i> Constants
+            <ul>
+                            </ul>
+        </li>
+    </ul>
+
+
+        </div>
+
+        <div class="span8">
+            <div class="element class">
+                <h1>EasyRdf_Literal_HexBinary</h1>
+                <small style="display: block; text-align: right">
+                                            Extends <a href="../classes/EasyRdf_Literal.html">\EasyRdf_Literal</a>
+                                                        </small>
+                <p class="short_description">Class that represents an RDF Literal of datatype xsd:hexBinary</p>
+                <div class="details">
+                    <div class="long_description">
+                        
+                    </div>
+                    <table class="table table-bordered">
+                                                                                    <tr>
+                                    <th>
+                                        package
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>EasyRdf</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        link
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p><a href="http://www.w3.org/TR/xmlschema-2/#hexBinary">http://www.w3.org/TR/xmlschema-2/#hexBinary</a></p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        copyright
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Copyright (c) 2009-2013 Nicholas J Humfrey</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        license
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p><a href="http://www.opensource.org/licenses/bsd-license.php">http://www.opensource.org/licenses/bsd-license.php</a></p>
+                                    </td>
+                                </tr>
+                                                                                                                                                                                </table>
+
+                    <h3><i class="icon-custom icon-method"></i> Methods</h3>
+                                                                <a id="method___construct"></a>
+                        <div class="element clickable method public  method___construct inherited" data-toggle="collapse" data-target=".method___construct .collapse">
+                            <h2>Constructor for creating a new literal</h2>
+                            <pre>__construct(string $value, string $lang = null, string $datatype = null) : object</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code>string</code><p><p>The value of the literal</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$lang</h4>
+                                                <code>string</code><p><p>The natural language of the literal or null (e.g. 'en')</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$datatype</h4>
+                                                <code>string</code><p><p>The datatype of the literal or null (e.g. 'xsd:string')</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>object</code><p><p>EasyRdf_Literal</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method___toString"></a>
+                        <div class="element clickable method public  method___toString inherited" data-toggle="collapse" data-target=".method___toString .collapse">
+                            <h2>Magic method to return the value of a literal as a string</h2>
+                            <pre>__toString() : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The value of the literal</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_create"></a>
+                        <div class="element clickable method public  method_create inherited" data-toggle="collapse" data-target=".method_create .collapse">
+                            <h2>Create a new literal object</h2>
+                            <pre>create(mixed $value, string $lang = null, string $datatype = null) : object</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>PHP values of type bool, int or float, will automatically be converted
+to the corresponding datatype and PHP sub-class.</p>
+<p>If a registered datatype is given, then the registered subclass of EasyRdf_Literal
+will instantiated.</p>
+<p>Note that literals are not required to have a language or datatype.
+Literals cannot have both a language and a datatype.</p></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code>mixed</code><p><p>The value of the literal or an associative array</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$lang</h4>
+                                                <code>string</code><p><p>The natural language of the literal or null (e.g. 'en')</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$datatype</h4>
+                                                <code>string</code><p><p>The datatype of the literal or null (e.g. 'xsd:integer')</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>object</code><p><p>EasyRdf_Literal (or subclass of EasyRdf_Literal)</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_deleteDatatypeMapping"></a>
+                        <div class="element clickable method public  method_deleteDatatypeMapping inherited" data-toggle="collapse" data-target=".method_deleteDatatypeMapping .collapse">
+                            <h2>Remove the mapping between an RDF datatype and a PHP class name</h2>
+                            <pre>deleteDatatypeMapping(string $datatype) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$datatype</h4>
+                                                <code>string</code><p><p>The RDF datatype (e.g. xsd:dateTime)</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_dumpValue"></a>
+                        <div class="element clickable method public  method_dumpValue inherited" data-toggle="collapse" data-target=".method_dumpValue .collapse">
+                            <h2>Return pretty-print view of the literal</h2>
+                            <pre>dumpValue(string $format = &#039;html&#039;, string $color = &#039;black&#039;) : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$format</h4>
+                                                <code>string</code><p><p>Either 'html' or 'text'</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$color</h4>
+                                                <code>string</code><p><p>The colour of the text</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_fromBinary"></a>
+                        <div class="element clickable method public  method_fromBinary" data-toggle="collapse" data-target=".method_fromBinary .collapse">
+                            <h2>Constructor for creating a new literal object from a binary blob</h2>
+                            <pre>fromBinary(string $binary) : object</pre>
+                            <div class="labels">
+                                                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$binary</h4>
+                                                <code>string</code><p><p>The binary data</p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>object</code><p><p>EasyRdf_Literal_HexBinary</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getDatatype"></a>
+                        <div class="element clickable method public  method_getDatatype inherited" data-toggle="collapse" data-target=".method_getDatatype .collapse">
+                            <h2>Returns the shortened datatype URI of the literal.</h2>
+                            <pre>getDatatype() : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>Datatype of this literal (e.g. xsd:integer).</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getDatatypeForValue"></a>
+                        <div class="element clickable method public  method_getDatatypeForValue inherited" data-toggle="collapse" data-target=".method_getDatatypeForValue .collapse">
+                            <h2>Get datatype URI for a PHP value.</h2>
+                            <pre>getDatatypeForValue( $value) : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>This static function is intended for internal use.
+Given a PHP value, it will return an XSD datatype
+URI for that value, for example:
+<a href="http://www.w3.org/2001/XMLSchema#integer">http://www.w3.org/2001/XMLSchema#integer</a></p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$value</h4>
+                                                <code></code><p></p>
+                                            </div>
+                                                                            
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>A URI for the datatype of $value.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getDatatypeUri"></a>
+                        <div class="element clickable method public  method_getDatatypeUri inherited" data-toggle="collapse" data-target=".method_getDatatypeUri .collapse">
+                            <h2>Returns the full datatype URI of the literal.</h2>
+                            <pre>getDatatypeUri() : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>Datatype URI of this literal.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getLang"></a>
+                        <div class="element clickable method public  method_getLang inherited" data-toggle="collapse" data-target=".method_getLang .collapse">
+                            <h2>Returns the language of the literal.</h2>
+                            <pre>getLang() : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>Language of this literal.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getValue"></a>
+                        <div class="element clickable method public  method_getValue inherited" data-toggle="collapse" data-target=".method_getValue .collapse">
+                            <h2>Returns the value of the literal.</h2>
+                            <pre>getValue() : string</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>Value of this literal.</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setDatatypeMapping"></a>
+                        <div class="element clickable method public  method_setDatatypeMapping inherited" data-toggle="collapse" data-target=".method_setDatatypeMapping .collapse">
+                            <h2>Register an RDF datatype with a PHP class name</h2>
+                            <pre>setDatatypeMapping(string $datatype, string $class) </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                <span class="label">static</span>                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>When parsing registered class will be used whenever the datatype
+is seen.</p>
+<p>When serialising a registered class, the mapping will be used to
+set the datatype in the RDF.</p>
+<p>Example:
+EasyRdf_Literal::registerDatatype('xsd:dateTime', 'My_DateTime_Class');</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$datatype</h4>
+                                                <code>string</code><p><p>The RDF datatype (e.g. xsd:dateTime)</p></p>
+                                            </div>
+                                                                                    <div class="subelement argument">
+                                                <h4>$class</h4>
+                                                <code>string</code><p><p>The PHP class name (e.g. My_DateTime_Class)</p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_toBinary"></a>
+                        <div class="element clickable method public  method_toBinary" data-toggle="collapse" data-target=".method_toBinary .collapse">
+                            <h2>Decode the hexadecimal string into a binary blob</h2>
+                            <pre>toBinary() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p><p>The binary blob</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_toRdfPhp"></a>
+                        <div class="element clickable method public  method_toRdfPhp inherited" data-toggle="collapse" data-target=".method_toRdfPhp .collapse">
+                            <h2>Returns the properties of the literal as an associative array</h2>
+                            <pre>toRdfPhp() : array</pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>For example:
+array('type' =&gt; 'literal', 'value' =&gt; 'string value')</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>array</code><p><p>The properties of the literal</p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                    
+                    
+                                                        </div>
+            </div>
+            <a id="\EasyRdf_Literal_HexBinary"></a>
+            <ul class="breadcrumb">
+                <li><a href="../index.html"><i class="icon-custom icon-class"></i></a></li>
+                    
+    
+    <li><span class="divider">\</span><a href="../namespaces/default.html">\</a></li>
+
+                <li class="active"><span class="divider">\</span><a href="../classes/EasyRdf_Literal_HexBinary.html">EasyRdf_Literal_HexBinary</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+        <footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by
+            <a href="http://glyphicons.com/">Glyphicons</a>.<br/>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
+            generated on Mon, 02 Nov 2015 09:34:59 -0500.<br/>
+    </footer>
+    </body>
+</html>
