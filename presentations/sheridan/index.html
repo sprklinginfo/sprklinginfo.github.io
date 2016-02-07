@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Reveal Presentation</title>
+
+		<meta name="description" content="A sample presentation with revealjs">
+		<meta name="author" content="Lingling Jiang">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon-revised.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/solarized-light.css">
+		
+		<!-- font awesome 4.5 -->
+		<link rel="stylesheet" href="css/awesome/css/font-awesome.min.css">
+		<!-- imageviewer css -->
+		<link rel="stylesheet" href="plugin/image-viewer/imageviewer.css">
+		
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section> <!-- slide -->
+					<h1>Striving for a premier learning environment at Sheridan</h1>
+					<h3>A work plan as a Metadata and Systems Librarian</h3>
+					<p>
+						<small>Created by <a href="#">Lingling Jiang</a> / <a href="https://twitter.com/sprklinginfo">@sprklinginfo</a></small>
+					</p>
+				</section>
+
+				<section> <!-- slide -->
+					<h2>Who am I?</h2>
+					<ul>
+						<li class="fragment">Computer engineer: 13 years working in System Admin/Application Support/Web Application Development/Institutional Repository (IR) Development</li>
+						<li class="fragment">Information professional / MISt graduate: 6 years on library technologies</li>
+						<li class="fragment">Application Programmer: Digital Scholarship Unit (DSU) at University of Toronto Scarborough Library</li>
+						<li class="fragment">Coder, Open Source Contributor & Hacker</li>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<div id="image-viewer-11" class="cf">
+							<img src="images/goals-md.png" data-high-res-src="images/goals.svg" alt="" class="gallery-items">
+						</div>
+					</section>
+					<section>
+						<div id="image-viewer-12" class="cf">
+							<img src="images/responsibilities-md.png" data-high-res-src="images/responsibilities.svg" alt="" class="gallery-items">
+						</div>
+					</section>
+					<section>
+						<div id="image-viewer-13" class="cf">
+							<img src="images/responsibilities-goals-md.png" data-high-res-src="images/responsibilities-goals.svg" alt="" class="gallery-items">
+						</div>
+					</section>
+					<section>
+						<h2>Findings</h2>
+						<ul>
+							<li class="fragment highlight-red">Goal 2.1 - Utilize digital tools to provide better access to collections and services</li>
+							<li class="fragment">Goal 2.3 - Implement mobile-friendly solutions</li>
+							<li class="fragment">Goal 1.3 - Enhance access to external collections</li>
+							<li class="fragment">Goal 2.2 - Embed Library content and services into the Learning Management System (LMS)</li>
+						</ul>
+					</section>
+
+				</section>
+				
+
+				
+
+				<section> <!-- slide -->
+					<h2>3nd Slide</h2>
+				</section>
+
+				<section> <!-- slide -->
+					<h2>Code example</h2>
+					<pre><code data-trim>
+$doc = new DOMDocument('1.0', 'utf-8');
+$doc->formatOutput = true;
+$node = dom_import_simplexml($xml);
+$node = $doc->importNode($node, true);
+					</code></pre>
+				</section>
+
+				
+
+			</div> <!-- end slides -->
+
+		</div> <!-- end reveal -->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				width: 1280,
+				height: 800,
+
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{src: 'plugin/image-viewer/jquery-1.8.3.min.js'},
+					{ src: 'plugin/image-viewer/imageviewer.js', callback: function(){
+						// do stuff
+						$(function () {
+						    var viewer = ImageViewer();
+						    $('.gallery-items').click(function () {
+						        var imgSrc = this.src,
+						            highResolutionImage = $(this).data('high-res-src');
+						 
+						        viewer.show(imgSrc, highResolutionImage);
+						    });
+						});
+					} },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
